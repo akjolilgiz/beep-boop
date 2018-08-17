@@ -1,6 +1,5 @@
-
+// business logic
   var beepConverter = function(number){
-   var digits = number.toString();
 
      if (isNaN(number)) {
       return output = 1;
@@ -10,13 +9,13 @@
       }
         else if (digits.includes(0)) {
           return output=3;
-                }
-        else if (digits.includes(1)){
+        }
+          else if (digits.includes(1)){
           return output = 4}
     }
 
 
-
+//user interface
 
 $(document).ready(function() {
   $("form#Beep-Boop").submit(function(event) {
