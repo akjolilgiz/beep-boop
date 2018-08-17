@@ -11,10 +11,10 @@
         else if (digits.includes(0)) {
           return output=3;
                 }
-    //     else if (digits.includes(1)){
-    //       return output = 4}
-    // }
-    //
+        else if (digits.includes(1)){
+          return output = 4}
+    }
+
 
 
 
@@ -35,7 +35,7 @@ $(document).ready(function() {
       } else if (output === 4){
           output = "Beep"
         }
-          else {}
+          else {output = number}
     $("#result").text(output);
   });
 });
