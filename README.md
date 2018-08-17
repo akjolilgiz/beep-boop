@@ -26,7 +26,7 @@ akjolilgiz@gmail.com_,
 ## Specs
 The program does nothing to letters characters.
 Example Input: A
-Example Output: A
+Example Output: "Enter a number"
 
 The program replaces the number that is divisible by 30 with a phrase.
 Example Input: 60
