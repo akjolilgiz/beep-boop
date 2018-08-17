@@ -14,7 +14,7 @@ If input numbers contain 1, then program replaces it with Boop! If input number 
 
 
 * Open file in a web browser.
-* Github address: .
+* Github address: https://github.com/akjolilgiz/beep-boop
 * Clone the repository.
 ## Known Bugs
 
@@ -22,7 +22,7 @@ _None._
 
 ## Support and contact details
 
-akjolilgiz@gmail.com_,
+akjolilgiz@gmail.com
 ## Specs
 The program does nothing to letters characters.
 Example Input: A

@@ -6,7 +6,7 @@
         else if (number % 30 === 0) {
           return output=2;
       }
-
+        
         else {
         alert("Beep");
       }
