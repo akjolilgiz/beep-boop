@@ -40,6 +40,10 @@ The program returns Beep if input number contains 1.
 Example Input: 12
 Example Output: Beep
 
+The program returns range of numbers if entered value does not meet previous criteria.
+Example Input: 2
+Exmple Output: [1, 2]
+
 
 
 ## Technologies Used

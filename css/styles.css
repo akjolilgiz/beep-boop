@@ -4,3 +4,18 @@ h1{
 button{
   background-color: #b6ccef;
 }
+img{
+image-orientation: center
+margin-top: 40px;
+}
+body{
+  background-color: #eae8e3;
+}
+.return{
+  display: hide;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-color: black;
+  border-style: solid;
+  border-width: thin;
+}

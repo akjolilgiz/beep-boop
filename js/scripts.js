@@ -1,40 +1,41 @@
 // business logic
   var beepConverter = function(number){
-
-     if (isNaN(number)) {
-      return output = 1;
-    }
-        else if (number % 3 === 0) {
-          return output = 2;
-      }
-        else if (digits.includes(0)) {
-          return output=3;
+    if (isNaN(number)) {
+     return output = "Please Enter a NUMBER!";
+   }
+       else if (number % 3 === 0) {
+         return output = "I'm sorry, Dave. I'm afraid I can't do that.";
+     }
+       else if (number.toString().includes(0)) {
+         return output= "Boop!";
+       }
+         else if (number.toString().includes(1)){
+         return output = "Beep!";
         }
-          else if (digits.includes(1)){
-          return output = 4}
-    }
+          else {
+            var range = function(start, number) {
+              var arr = [];
+              for (let i = start; i<=number; i++){
+                arr.push(i);
+                } return arr;}
+              return output = (range(0, number));}
+}
 
 
 //user interface
+
+
 
 $(document).ready(function() {
   $("form#Beep-Boop").submit(function(event) {
     event.preventDefault();
 
-    var number = $("input#number").val();
+    var number = parseInt($("input#number").val());
 
     var output = beepConverter(number);
 
-    if (output === 1) {
-      output = "Please Enter A Number"
-    } else if (output === 2){
-      output = "I'm sorry, Dave. I'm afraid I can't do that."
-      } else if (output === 3){
-        output = "Boop"
-      } else if (output === 4){
-          output = "Beep"
-        }
-          else {output = number}
     $("#result").text(output);
+    $("#result").show();
+
   });
 });
